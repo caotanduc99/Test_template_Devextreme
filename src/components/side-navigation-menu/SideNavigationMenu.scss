@@ -55,7 +55,8 @@
   
         &[aria-level='2'] .dx-treeview-item-content {
           font-weight: normal;
-          padding: 0 $side-panel-min-width;
+          // padding: 0 $side-panel-min-width; //old setting
+          padding: 0 23px;
         }
       }
       // ##

@@ -1,5 +1,7 @@
 import defaultUser from '../utils/default-user';
 
+
+
 export async function signIn(email: string, password: string) {
   try {
     // Send request
@@ -19,6 +21,22 @@ export async function signIn(email: string, password: string) {
 }
 
 export async function getUser() {
+  try {
+    // Send request
+
+    return {
+      isOk: true,
+      data: defaultUser
+    };
+  }
+  catch {
+    return {
+      isOk: false
+    };
+  }
+}
+
+export async function getPlanning() {
   try {
     // Send request
 

@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import '../home.scss';
 import DataGrid, {
-  Column, Editing, Paging, Lookup,
+  Column, Editing, Paging
 } from 'devextreme-react/data-grid';
-import { useLocation, useParams } from 'react-router-dom';
+import { useLocation} from 'react-router-dom';
 
 const datasource=[{
 ID:1,
